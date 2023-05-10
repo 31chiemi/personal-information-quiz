@@ -54,10 +54,10 @@ const goToNext = () => {
 
 const judge = (elm) => {
   if(elm.textContent === quiz[quizCount].correct){
-    $window.alert('正解!');
+    $window.alert('正解');
     score++;
   } else {
-    $window.alert('不正解!');
+    $window.alert('不正解');
   }
   goToNext();
 };

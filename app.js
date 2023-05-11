@@ -63,7 +63,7 @@ const judge = (elm) => {
 };
 
 const showEnd = () => {
-  $question.textContent = 'あなたのスコアは' + score + '/' + quizLen + 'です';
+  $question.textContent = 'あなたのスコアは' + score + '/' + quizLen + 'です!';
   
   const $items = $doc.getElementById('js-items');
   $items.style.visibility = 'hidden';
